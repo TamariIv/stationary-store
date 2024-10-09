@@ -13,5 +13,5 @@ const renderProducts = (products) => {
         productsStr += renderProduct(product);
     }
     document.getElementById("prod-area")
-
+   //document.getElementById("prod-area").innerHTML = productsStr;
 } 
