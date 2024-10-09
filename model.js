@@ -120,7 +120,7 @@ const gNotebooks = [
     },
 ]
 
-export const craft = [
+const gCraft = [
     {
         catalogId: 86,
         title: "מארז תיכוניסטים/יות",

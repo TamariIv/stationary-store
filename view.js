@@ -1,5 +1,10 @@
 const renderProduct = (product) => {
-    // return html div
+    return `
+    <div class="product">
+        <h2>${product.title}</h2>
+        <p>${product.price}</p>
+    </div>
+    `
 }
 
 const renderProducts = (products) => {
