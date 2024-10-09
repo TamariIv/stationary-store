@@ -8,8 +8,13 @@
 <body lang="he">
     <h1>WStationary Store</h1>
     <div class="container">
+        <div id="title"></div>
+
         <div id="products" class="products"></div>
-        <div id="sidebar"></div>
+        <div id="sidebar">
+            <div class="sidebar-item" onclick="renderNotebooks()">מחברות</div>
+            <div class="sidebar-item" onclick="renderCrafts()">כלי כתיבה</div>
+        </div>
     </div>
 
     <script src="model.js"></script>

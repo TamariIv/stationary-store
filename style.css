@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 1rem;
+    width: 80%;
 }
 
 .product {
@@ -13,4 +14,20 @@
 .container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    border-left: 1px solid gainsboro;
+}
+
+.sidebar-item {
+    padding: 2rem;
+}
+
+.sidebar-item:hover {
+    background-color: aliceblue;
 }
