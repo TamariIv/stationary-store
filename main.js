@@ -1,3 +1,4 @@
 function main() {
-    console.log(renderProducts(gNotebooks))
+    console.log(renderProducts(Gnotebooks));
 }
+main();

@@ -7,6 +7,6 @@ const renderProducts = (products) => {
     for (const product of products) {
         productsStr += renderProduct(product);
     }
-    document.getElementById("products")
+    document.getElementById("prod-area")
 
 } 
