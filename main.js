@@ -1,3 +1,5 @@
 function main() {
-    console.log(renderProducts(gNotebooks))
+    console.log("in main");
+    console.log(renderProducts(gNotebooks));
 }
+main();

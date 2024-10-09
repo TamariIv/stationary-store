@@ -12,6 +12,7 @@ const renderProducts = (products) => {
     for (const product of products) {
         productsStr += renderProduct(product);
     }
-    document.getElementById("products")
+    return productsStr;
+    // document.getElementById("products")
 
 } 
