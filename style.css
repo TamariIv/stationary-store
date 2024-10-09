@@ -31,3 +31,17 @@
 .sidebar-item:hover {
     background-color: aliceblue;
 }
+
+#topper {
+    display: flex;
+    flex-direction: column;
+}
+
+#topper-image {
+    width: 80%;
+    height: ;
+}
+
+#title {
+    font-weight: bolder;
+}
