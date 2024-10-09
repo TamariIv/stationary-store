@@ -80,7 +80,7 @@ const Gnotebooks = [
         catalogId: 11,
         title: "מחברת חכמה - מספר 3",
         price: 3.0,
-        image: "images/basik_math.jpgg",
+        image: "images/basik_math.jpg",
         tags: ["a5", "rows"]
     },
     {
