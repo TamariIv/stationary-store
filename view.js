@@ -15,4 +15,15 @@ const renderProducts = (products) => {
     }
     document.getElementById("products").innerHTML = productsStr;
     return productsStr;
+
 } 
+
+const renderNotebooks = () => {
+    document.getElementById("title").innerHTML = "מחברות"
+    return renderProducts(Gnotebooks);
+}
+
+const renderCrafts = () => {
+    document.getElementById("title").innerHTML = "כלי כתיבה"
+    return renderProducts(Gcraft);
+}
